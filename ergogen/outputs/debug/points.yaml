@@ -1,0 +1,9258 @@
+{
+  "matrix_outer_bottom": {
+    "x": 66.2827315,
+    "y": -110.270132,
+    "r": -20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "outer_bottom",
+      "name": "matrix_outer_bottom",
+      "column_net": "P14",
+      "row_net": "P18",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P14"
+        },
+        "name": "outer"
+      },
+      "row": "bottom",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        0,
+        0
+      ]
+    }
+  },
+  "matrix_outer_home": {
+    "x": 72.7982152,
+    "y": -92.3689876,
+    "r": -20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "outer_home",
+      "name": "matrix_outer_home",
+      "column_net": "P14",
+      "row_net": "P19",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P14"
+        },
+        "name": "outer"
+      },
+      "row": "home",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        0
+      ]
+    }
+  },
+  "matrix_outer_top": {
+    "x": 79.3136989,
+    "y": -74.4678431,
+    "r": -20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "outer_top",
+      "name": "matrix_outer_top",
+      "column_net": "P14",
+      "row_net": "P20",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P14"
+        },
+        "name": "outer"
+      },
+      "row": "top",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        0
+      ]
+    }
+  },
+  "matrix_outer_num": {
+    "x": 85.8291827,
+    "y": -56.5666987,
+    "r": -20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "outer_num",
+      "name": "matrix_outer_num",
+      "column_net": "P14",
+      "row_net": "P21",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P14"
+        },
+        "name": "outer"
+      },
+      "row": "num",
+      "mirrored": false,
+      "bind": [
+        0,
+        0,
+        10,
+        0
+      ]
+    }
+  },
+  "matrix_pinky_bottom": {
+    "x": 84.1838759,
+    "y": -116.7856157,
+    "r": -20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "pinky_bottom",
+      "name": "matrix_pinky_bottom",
+      "column_net": "P16",
+      "row_net": "P18",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P16"
+        },
+        "name": "pinky"
+      },
+      "row": "bottom",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        0,
+        0
+      ]
+    }
+  },
+  "matrix_pinky_home": {
+    "x": 90.6993596,
+    "y": -98.8844713,
+    "r": -20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "pinky_home",
+      "name": "matrix_pinky_home",
+      "column_net": "P16",
+      "row_net": "P19",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P16"
+        },
+        "name": "pinky"
+      },
+      "row": "home",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_pinky_top": {
+    "x": 97.2148434,
+    "y": -80.9833269,
+    "r": -20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "pinky_top",
+      "name": "matrix_pinky_top",
+      "column_net": "P16",
+      "row_net": "P20",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P16"
+        },
+        "name": "pinky"
+      },
+      "row": "top",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_pinky_num": {
+    "x": 103.7303271,
+    "y": -63.0821824,
+    "r": -20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "pinky_num",
+      "name": "matrix_pinky_num",
+      "column_net": "P16",
+      "row_net": "P21",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P16"
+        },
+        "name": "pinky"
+      },
+      "row": "num",
+      "mirrored": false,
+      "bind": [
+        0,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_ring_mod": {
+    "x": 97.2796373,
+    "y": -136.5037808,
+    "r": -20,
+    "meta": {
+      "stagger": 5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "ring_mod",
+      "name": "matrix_ring_mod",
+      "column_net": "P16",
+      "row_net": "P15",
+      "mirror": {
+        "row_net": "P6"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 5,
+          "column_net": "P10"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P16"
+          }
+        },
+        "name": "ring"
+      },
+      "row": "mod",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        0,
+        0
+      ]
+    }
+  },
+  "matrix_ring_bottom": {
+    "x": 103.795121,
+    "y": -118.6026363,
+    "r": -20,
+    "meta": {
+      "stagger": 5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "ring_bottom",
+      "name": "matrix_ring_bottom",
+      "column_net": "P10",
+      "row_net": "P18",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 5,
+          "column_net": "P10"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P16"
+          }
+        },
+        "name": "ring"
+      },
+      "row": "bottom",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        0
+      ]
+    }
+  },
+  "matrix_ring_home": {
+    "x": 110.3106048,
+    "y": -100.7014919,
+    "r": -20,
+    "meta": {
+      "stagger": 5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "ring_home",
+      "name": "matrix_ring_home",
+      "column_net": "P10",
+      "row_net": "P19",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 5,
+          "column_net": "P10"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P16"
+          }
+        },
+        "name": "ring"
+      },
+      "row": "home",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_ring_top": {
+    "x": 116.8260885,
+    "y": -82.8003475,
+    "r": -20,
+    "meta": {
+      "stagger": 5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "ring_top",
+      "name": "matrix_ring_top",
+      "column_net": "P10",
+      "row_net": "P20",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 5,
+          "column_net": "P10"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P16"
+          }
+        },
+        "name": "ring"
+      },
+      "row": "top",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_ring_num": {
+    "x": 123.3415722,
+    "y": -64.8992031,
+    "r": -20,
+    "meta": {
+      "stagger": 5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "ring_num",
+      "name": "matrix_ring_num",
+      "column_net": "P10",
+      "row_net": "P21",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 5,
+          "column_net": "P10"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P16"
+          }
+        },
+        "name": "ring"
+      },
+      "row": "num",
+      "mirrored": false,
+      "bind": [
+        0,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_middle_mod": {
+    "x": 116.0358321,
+    "y": -140.6700329,
+    "r": -20,
+    "meta": {
+      "stagger": 2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "middle_mod",
+      "name": "matrix_middle_mod",
+      "column_net": "P10",
+      "row_net": "P15",
+      "mirror": {
+        "row_net": "P6"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 2.5,
+          "column_net": "P7"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P10"
+          }
+        },
+        "name": "middle"
+      },
+      "row": "mod",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        0,
+        0
+      ]
+    }
+  },
+  "matrix_middle_bottom": {
+    "x": 122.5513158,
+    "y": -122.7688885,
+    "r": -20,
+    "meta": {
+      "stagger": 2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "middle_bottom",
+      "name": "matrix_middle_bottom",
+      "column_net": "P7",
+      "row_net": "P18",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 2.5,
+          "column_net": "P7"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P10"
+          }
+        },
+        "name": "middle"
+      },
+      "row": "bottom",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_middle_home": {
+    "x": 129.0667996,
+    "y": -104.8677441,
+    "r": -20,
+    "meta": {
+      "stagger": 2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "middle_home",
+      "name": "matrix_middle_home",
+      "column_net": "P7",
+      "row_net": "P19",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 2.5,
+          "column_net": "P7"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P10"
+          }
+        },
+        "name": "middle"
+      },
+      "row": "home",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_middle_top": {
+    "x": 135.5822833,
+    "y": -86.9665997,
+    "r": -20,
+    "meta": {
+      "stagger": 2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "middle_top",
+      "name": "matrix_middle_top",
+      "column_net": "P7",
+      "row_net": "P20",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 2.5,
+          "column_net": "P7"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P10"
+          }
+        },
+        "name": "middle"
+      },
+      "row": "top",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_middle_num": {
+    "x": 142.097767,
+    "y": -69.0654552,
+    "r": -20,
+    "meta": {
+      "stagger": 2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "middle_num",
+      "name": "matrix_middle_num",
+      "column_net": "P7",
+      "row_net": "P21",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 2.5,
+          "column_net": "P7"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P10"
+          }
+        },
+        "name": "middle"
+      },
+      "row": "num",
+      "mirrored": false,
+      "bind": [
+        0,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_index_mod": {
+    "x": 133.0819262,
+    "y": -149.5347482,
+    "r": -20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "index_mod",
+      "name": "matrix_index_mod",
+      "column_net": "P7",
+      "row_net": "P15",
+      "mirror": {
+        "row_net": "P6"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P8"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P7"
+          }
+        },
+        "name": "index"
+      },
+      "row": "mod",
+      "mirrored": false,
+      "bind": [
+        10,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "matrix_index_bottom": {
+    "x": 139.5974099,
+    "y": -131.6336038,
+    "r": -20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "index_bottom",
+      "name": "matrix_index_bottom",
+      "column_net": "P8",
+      "row_net": "P18",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P8"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P7"
+          }
+        },
+        "name": "index"
+      },
+      "row": "bottom",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_index_home": {
+    "x": 146.1128936,
+    "y": -113.7324594,
+    "r": -20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "index_home",
+      "name": "matrix_index_home",
+      "column_net": "P8",
+      "row_net": "P19",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P8"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P7"
+          }
+        },
+        "name": "index"
+      },
+      "row": "home",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_index_top": {
+    "x": 152.6283774,
+    "y": -95.831315,
+    "r": -20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "index_top",
+      "name": "matrix_index_top",
+      "column_net": "P8",
+      "row_net": "P20",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P8"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P7"
+          }
+        },
+        "name": "index"
+      },
+      "row": "top",
+      "mirrored": false,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_index_num": {
+    "x": 159.1438611,
+    "y": -77.9301705,
+    "r": -20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "index_num",
+      "name": "matrix_index_num",
+      "column_net": "P8",
+      "row_net": "P21",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P8"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P7"
+          }
+        },
+        "name": "index"
+      },
+      "row": "num",
+      "mirrored": false,
+      "bind": [
+        0,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_inner_bottom": {
+    "x": 156.643504,
+    "y": -140.4983191,
+    "r": -20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "inner_bottom",
+      "name": "matrix_inner_bottom",
+      "column_net": "P9",
+      "row_net": "P18",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P9"
+        },
+        "name": "inner"
+      },
+      "row": "bottom",
+      "mirrored": false,
+      "bind": [
+        10,
+        0,
+        0,
+        10
+      ]
+    }
+  },
+  "matrix_inner_home": {
+    "x": 163.1589877,
+    "y": -122.5971747,
+    "r": -20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "inner_home",
+      "name": "matrix_inner_home",
+      "column_net": "P9",
+      "row_net": "P19",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P9"
+        },
+        "name": "inner"
+      },
+      "row": "home",
+      "mirrored": false,
+      "bind": [
+        10,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_inner_top": {
+    "x": 169.6744714,
+    "y": -104.6960302,
+    "r": -20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "inner_top",
+      "name": "matrix_inner_top",
+      "column_net": "P9",
+      "row_net": "P20",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P9"
+        },
+        "name": "inner"
+      },
+      "row": "top",
+      "mirrored": false,
+      "bind": [
+        10,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "matrix_inner_num": {
+    "x": 176.1899552,
+    "y": -86.7948858,
+    "r": -20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "inner_num",
+      "name": "matrix_inner_num",
+      "column_net": "P9",
+      "row_net": "P21",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P9"
+        },
+        "name": "inner"
+      },
+      "row": "num",
+      "mirrored": false,
+      "bind": [
+        0,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "thumbs_layer_cluster": {
+    "x": 151.3233652,
+    "y": -160.962889,
+    "r": -35,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": -15,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "layer_cluster",
+      "name": "thumbs_layer_cluster",
+      "column_net": "P8",
+      "row_net": "P15",
+      "mirror": {
+        "row_net": "P6"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "layer": {
+            "key": {
+              "splay": -15,
+              "column_net": "P8"
+            },
+            "rows": {},
+            "name": "layer"
+          },
+          "space": {
+            "key": {
+              "width": "1.5kx",
+              "splay": 75,
+              "shift": [
+                2.5,
+                -3.25
+              ],
+              "column_net": "P9"
+            },
+            "rows": {},
+            "name": "space"
+          }
+        },
+        "rows": {
+          "cluster": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          }
+        },
+        "name": "thumbs"
+      },
+      "col": {
+        "key": {
+          "splay": -15,
+          "column_net": "P8"
+        },
+        "rows": {},
+        "name": "layer"
+      },
+      "row": "cluster",
+      "mirrored": false,
+      "bind": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "thumbs_space_cluster": {
+    "x": 170.9323825,
+    "y": -172.7721956,
+    "r": 40,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 75,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        2.5,
+        -3.25
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 28.575000000000003,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "space_cluster",
+      "name": "thumbs_space_cluster",
+      "column_net": "P9",
+      "row_net": "P15",
+      "mirror": {
+        "row_net": "P6"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "layer": {
+            "key": {
+              "splay": -15,
+              "column_net": "P8"
+            },
+            "rows": {},
+            "name": "layer"
+          },
+          "space": {
+            "key": {
+              "width": "1.5kx",
+              "splay": 75,
+              "shift": [
+                2.5,
+                -3.25
+              ],
+              "column_net": "P9"
+            },
+            "rows": {},
+            "name": "space"
+          }
+        },
+        "rows": {
+          "cluster": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          }
+        },
+        "name": "thumbs"
+      },
+      "col": {
+        "key": {
+          "width": "1.5kx",
+          "splay": 75,
+          "shift": [
+            2.5,
+            -3.25
+          ],
+          "column_net": "P9"
+        },
+        "rows": {},
+        "name": "space"
+      },
+      "row": "cluster",
+      "mirrored": false,
+      "bind": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "mirror_matrix_outer_bottom": {
+    "x": 324.19717890000004,
+    "y": -110.270132,
+    "r": 20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_outer_bottom",
+      "name": "mirror_matrix_outer_bottom",
+      "column_net": "P14",
+      "row_net": "P5",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P14"
+        },
+        "name": "outer"
+      },
+      "row": "bottom",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        0,
+        0
+      ]
+    }
+  },
+  "mirror_matrix_outer_home": {
+    "x": 317.68169520000004,
+    "y": -92.3689876,
+    "r": 20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_outer_home",
+      "name": "mirror_matrix_outer_home",
+      "column_net": "P14",
+      "row_net": "P4",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P14"
+        },
+        "name": "outer"
+      },
+      "row": "home",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        0
+      ]
+    }
+  },
+  "mirror_matrix_outer_top": {
+    "x": 311.16621150000003,
+    "y": -74.4678431,
+    "r": 20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_outer_top",
+      "name": "mirror_matrix_outer_top",
+      "column_net": "P14",
+      "row_net": "P0",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P14"
+        },
+        "name": "outer"
+      },
+      "row": "top",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        0
+      ]
+    }
+  },
+  "mirror_matrix_outer_num": {
+    "x": 304.65072770000006,
+    "y": -56.5666987,
+    "r": 20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_outer_num",
+      "name": "mirror_matrix_outer_num",
+      "column_net": "P14",
+      "row_net": "P1",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P14"
+        },
+        "name": "outer"
+      },
+      "row": "num",
+      "mirrored": true,
+      "bind": [
+        0,
+        0,
+        10,
+        0
+      ]
+    }
+  },
+  "mirror_matrix_pinky_bottom": {
+    "x": 306.2960345,
+    "y": -116.7856157,
+    "r": 20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_pinky_bottom",
+      "name": "mirror_matrix_pinky_bottom",
+      "column_net": "P16",
+      "row_net": "P5",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P16"
+        },
+        "name": "pinky"
+      },
+      "row": "bottom",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        0,
+        0
+      ]
+    }
+  },
+  "mirror_matrix_pinky_home": {
+    "x": 299.78055080000007,
+    "y": -98.8844713,
+    "r": 20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_pinky_home",
+      "name": "mirror_matrix_pinky_home",
+      "column_net": "P16",
+      "row_net": "P4",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P16"
+        },
+        "name": "pinky"
+      },
+      "row": "home",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_pinky_top": {
+    "x": 293.26506700000004,
+    "y": -80.9833269,
+    "r": 20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_pinky_top",
+      "name": "mirror_matrix_pinky_top",
+      "column_net": "P16",
+      "row_net": "P0",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P16"
+        },
+        "name": "pinky"
+      },
+      "row": "top",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_pinky_num": {
+    "x": 286.74958330000004,
+    "y": -63.0821824,
+    "r": 20,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_pinky_num",
+      "name": "mirror_matrix_pinky_num",
+      "column_net": "P16",
+      "row_net": "P1",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "column_net": "P16"
+        },
+        "name": "pinky"
+      },
+      "row": "num",
+      "mirrored": true,
+      "bind": [
+        0,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_ring_mod": {
+    "x": 293.20027310000006,
+    "y": -136.5037808,
+    "r": 20,
+    "meta": {
+      "stagger": 5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_ring_mod",
+      "name": "mirror_matrix_ring_mod",
+      "column_net": "P16",
+      "row_net": "P6",
+      "mirror": {
+        "row_net": "P6"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 5,
+          "column_net": "P10"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P16"
+          }
+        },
+        "name": "ring"
+      },
+      "row": "mod",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        0,
+        0
+      ]
+    }
+  },
+  "mirror_matrix_ring_bottom": {
+    "x": 286.68478940000006,
+    "y": -118.6026363,
+    "r": 20,
+    "meta": {
+      "stagger": 5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_ring_bottom",
+      "name": "mirror_matrix_ring_bottom",
+      "column_net": "P10",
+      "row_net": "P5",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 5,
+          "column_net": "P10"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P16"
+          }
+        },
+        "name": "ring"
+      },
+      "row": "bottom",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        0
+      ]
+    }
+  },
+  "mirror_matrix_ring_home": {
+    "x": 280.16930560000003,
+    "y": -100.7014919,
+    "r": 20,
+    "meta": {
+      "stagger": 5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_ring_home",
+      "name": "mirror_matrix_ring_home",
+      "column_net": "P10",
+      "row_net": "P4",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 5,
+          "column_net": "P10"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P16"
+          }
+        },
+        "name": "ring"
+      },
+      "row": "home",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_ring_top": {
+    "x": 273.6538219,
+    "y": -82.8003475,
+    "r": 20,
+    "meta": {
+      "stagger": 5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_ring_top",
+      "name": "mirror_matrix_ring_top",
+      "column_net": "P10",
+      "row_net": "P0",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 5,
+          "column_net": "P10"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P16"
+          }
+        },
+        "name": "ring"
+      },
+      "row": "top",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_ring_num": {
+    "x": 267.1383382,
+    "y": -64.8992031,
+    "r": 20,
+    "meta": {
+      "stagger": 5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_ring_num",
+      "name": "mirror_matrix_ring_num",
+      "column_net": "P10",
+      "row_net": "P1",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 5,
+          "column_net": "P10"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P16"
+          }
+        },
+        "name": "ring"
+      },
+      "row": "num",
+      "mirrored": true,
+      "bind": [
+        0,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_middle_mod": {
+    "x": 274.44407830000006,
+    "y": -140.6700329,
+    "r": 20,
+    "meta": {
+      "stagger": 2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_middle_mod",
+      "name": "mirror_matrix_middle_mod",
+      "column_net": "P10",
+      "row_net": "P6",
+      "mirror": {
+        "row_net": "P6"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 2.5,
+          "column_net": "P7"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P10"
+          }
+        },
+        "name": "middle"
+      },
+      "row": "mod",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        0,
+        0
+      ]
+    }
+  },
+  "mirror_matrix_middle_bottom": {
+    "x": 267.92859460000005,
+    "y": -122.7688885,
+    "r": 20,
+    "meta": {
+      "stagger": 2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_middle_bottom",
+      "name": "mirror_matrix_middle_bottom",
+      "column_net": "P7",
+      "row_net": "P5",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 2.5,
+          "column_net": "P7"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P10"
+          }
+        },
+        "name": "middle"
+      },
+      "row": "bottom",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_middle_home": {
+    "x": 261.4131108,
+    "y": -104.8677441,
+    "r": 20,
+    "meta": {
+      "stagger": 2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_middle_home",
+      "name": "mirror_matrix_middle_home",
+      "column_net": "P7",
+      "row_net": "P4",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 2.5,
+          "column_net": "P7"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P10"
+          }
+        },
+        "name": "middle"
+      },
+      "row": "home",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_middle_top": {
+    "x": 254.89762710000005,
+    "y": -86.9665997,
+    "r": 20,
+    "meta": {
+      "stagger": 2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_middle_top",
+      "name": "mirror_matrix_middle_top",
+      "column_net": "P7",
+      "row_net": "P0",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 2.5,
+          "column_net": "P7"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P10"
+          }
+        },
+        "name": "middle"
+      },
+      "row": "top",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_middle_num": {
+    "x": 248.38214340000005,
+    "y": -69.0654552,
+    "r": 20,
+    "meta": {
+      "stagger": 2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_middle_num",
+      "name": "mirror_matrix_middle_num",
+      "column_net": "P7",
+      "row_net": "P1",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": 2.5,
+          "column_net": "P7"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P10"
+          }
+        },
+        "name": "middle"
+      },
+      "row": "num",
+      "mirrored": true,
+      "bind": [
+        0,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_index_mod": {
+    "x": 257.39798420000005,
+    "y": -149.5347482,
+    "r": 20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_index_mod",
+      "name": "mirror_matrix_index_mod",
+      "column_net": "P7",
+      "row_net": "P6",
+      "mirror": {
+        "row_net": "P6"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P8"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P7"
+          }
+        },
+        "name": "index"
+      },
+      "row": "mod",
+      "mirrored": true,
+      "bind": [
+        10,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "mirror_matrix_index_bottom": {
+    "x": 250.88250050000005,
+    "y": -131.6336038,
+    "r": 20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_index_bottom",
+      "name": "mirror_matrix_index_bottom",
+      "column_net": "P8",
+      "row_net": "P5",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P8"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P7"
+          }
+        },
+        "name": "index"
+      },
+      "row": "bottom",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_index_home": {
+    "x": 244.36701680000004,
+    "y": -113.7324594,
+    "r": 20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_index_home",
+      "name": "mirror_matrix_index_home",
+      "column_net": "P8",
+      "row_net": "P4",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P8"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P7"
+          }
+        },
+        "name": "index"
+      },
+      "row": "home",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_index_top": {
+    "x": 237.85153300000005,
+    "y": -95.831315,
+    "r": 20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_index_top",
+      "name": "mirror_matrix_index_top",
+      "column_net": "P8",
+      "row_net": "P0",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P8"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P7"
+          }
+        },
+        "name": "index"
+      },
+      "row": "top",
+      "mirrored": true,
+      "bind": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_index_num": {
+    "x": 231.33604930000004,
+    "y": -77.9301705,
+    "r": 20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_index_num",
+      "name": "mirror_matrix_index_num",
+      "column_net": "P8",
+      "row_net": "P1",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P8"
+        },
+        "rows": {
+          "mod": {
+            "column_net": "P7"
+          }
+        },
+        "name": "index"
+      },
+      "row": "num",
+      "mirrored": true,
+      "bind": [
+        0,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_inner_bottom": {
+    "x": 233.83640640000004,
+    "y": -140.4983191,
+    "r": 20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_inner_bottom",
+      "name": "mirror_matrix_inner_bottom",
+      "column_net": "P9",
+      "row_net": "P5",
+      "mirror": {
+        "row_net": "P5"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P9"
+        },
+        "name": "inner"
+      },
+      "row": "bottom",
+      "mirrored": true,
+      "bind": [
+        10,
+        0,
+        0,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_inner_home": {
+    "x": 227.32092270000004,
+    "y": -122.5971747,
+    "r": 20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_inner_home",
+      "name": "mirror_matrix_inner_home",
+      "column_net": "P9",
+      "row_net": "P4",
+      "mirror": {
+        "row_net": "P4"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P9"
+        },
+        "name": "inner"
+      },
+      "row": "home",
+      "mirrored": true,
+      "bind": [
+        10,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_inner_top": {
+    "x": 220.80543900000006,
+    "y": -104.6960302,
+    "r": 20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_inner_top",
+      "name": "mirror_matrix_inner_top",
+      "column_net": "P9",
+      "row_net": "P0",
+      "mirror": {
+        "row_net": "P0"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P9"
+        },
+        "name": "inner"
+      },
+      "row": "top",
+      "mirrored": true,
+      "bind": [
+        10,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_matrix_inner_num": {
+    "x": 214.28995520000004,
+    "y": -86.7948858,
+    "r": 20,
+    "meta": {
+      "stagger": -2.5,
+      "spread": 19.05,
+      "splay": 0,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_inner_num",
+      "name": "mirror_matrix_inner_num",
+      "column_net": "P9",
+      "row_net": "P1",
+      "mirror": {
+        "row_net": "P1"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "outer": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P14"
+            },
+            "name": "outer"
+          },
+          "pinky": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "column_net": "P16"
+            },
+            "name": "pinky"
+          },
+          "ring": {
+            "key": {
+              "stagger": 5,
+              "column_net": "P10"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P16"
+              }
+            },
+            "name": "ring"
+          },
+          "middle": {
+            "key": {
+              "stagger": 2.5,
+              "column_net": "P7"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P10"
+              }
+            },
+            "name": "middle"
+          },
+          "index": {
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P8"
+            },
+            "rows": {
+              "mod": {
+                "column_net": "P7"
+              }
+            },
+            "name": "index"
+          },
+          "inner": {
+            "rows": {
+              "mod": {
+                "skip": true
+              }
+            },
+            "key": {
+              "stagger": -2.5,
+              "column_net": "P9"
+            },
+            "name": "inner"
+          }
+        },
+        "rows": {
+          "mod": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          },
+          "bottom": {
+            "row_net": "P18",
+            "mirror": {
+              "row_net": "P5"
+            }
+          },
+          "home": {
+            "row_net": "P19",
+            "mirror": {
+              "row_net": "P4"
+            }
+          },
+          "top": {
+            "row_net": "P20",
+            "mirror": {
+              "row_net": "P0"
+            }
+          },
+          "num": {
+            "row_net": "P21",
+            "mirror": {
+              "row_net": "P1"
+            }
+          }
+        },
+        "name": "matrix"
+      },
+      "col": {
+        "rows": {
+          "mod": {
+            "skip": true
+          }
+        },
+        "key": {
+          "stagger": -2.5,
+          "column_net": "P9"
+        },
+        "name": "inner"
+      },
+      "row": "num",
+      "mirrored": true,
+      "bind": [
+        0,
+        0,
+        10,
+        10
+      ]
+    }
+  },
+  "mirror_thumbs_layer_cluster": {
+    "x": 239.15654520000004,
+    "y": -160.962889,
+    "r": 35,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": -15,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        0,
+        0
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 18,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_layer_cluster",
+      "name": "mirror_thumbs_layer_cluster",
+      "column_net": "P8",
+      "row_net": "P6",
+      "mirror": {
+        "row_net": "P6"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "layer": {
+            "key": {
+              "splay": -15,
+              "column_net": "P8"
+            },
+            "rows": {},
+            "name": "layer"
+          },
+          "space": {
+            "key": {
+              "width": "1.5kx",
+              "splay": 75,
+              "shift": [
+                2.5,
+                -3.25
+              ],
+              "column_net": "P9"
+            },
+            "rows": {},
+            "name": "space"
+          }
+        },
+        "rows": {
+          "cluster": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          }
+        },
+        "name": "thumbs"
+      },
+      "col": {
+        "key": {
+          "splay": -15,
+          "column_net": "P8"
+        },
+        "rows": {},
+        "name": "layer"
+      },
+      "row": "cluster",
+      "mirrored": true,
+      "bind": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "mirror_thumbs_space_cluster": {
+    "x": 219.54752790000006,
+    "y": -172.7721956,
+    "r": -40,
+    "meta": {
+      "stagger": 0,
+      "spread": 19.05,
+      "splay": 75,
+      "origin": [
+        0,
+        0
+      ],
+      "orient": 0,
+      "shift": [
+        2.5,
+        -3.25
+      ],
+      "rotate": 0,
+      "adjust": {},
+      "width": 28.575000000000003,
+      "height": 18,
+      "padding": 19.05,
+      "autobind": 10,
+      "skip": false,
+      "asym": "both",
+      "colrow": "mirror_space_cluster",
+      "name": "mirror_thumbs_space_cluster",
+      "column_net": "P9",
+      "row_net": "P6",
+      "mirror": {
+        "row_net": "P6"
+      },
+      "zone": {
+        "key": {
+          "padding": "1ky",
+          "spread": "1kx"
+        },
+        "columns": {
+          "layer": {
+            "key": {
+              "splay": -15,
+              "column_net": "P8"
+            },
+            "rows": {},
+            "name": "layer"
+          },
+          "space": {
+            "key": {
+              "width": "1.5kx",
+              "splay": 75,
+              "shift": [
+                2.5,
+                -3.25
+              ],
+              "column_net": "P9"
+            },
+            "rows": {},
+            "name": "space"
+          }
+        },
+        "rows": {
+          "cluster": {
+            "row_net": "P15",
+            "mirror": {
+              "row_net": "P6"
+            }
+          }
+        },
+        "name": "thumbs"
+      },
+      "col": {
+        "key": {
+          "width": "1.5kx",
+          "splay": 75,
+          "shift": [
+            2.5,
+            -3.25
+          ],
+          "column_net": "P9"
+        },
+        "rows": {},
+        "name": "space"
+      },
+      "row": "cluster",
+      "mirrored": true,
+      "bind": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}
