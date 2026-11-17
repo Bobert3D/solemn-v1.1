@@ -12,3 +12,4 @@ flowchart TD
     G --> H[Solder Diodes on B.Cu & Switches on F.Cu]
     H --> I[Flash Firmware & Test]
 ```
+Just a cute lil keyboard that has 58 keys and some chill shapes! Onshape is: [Here](https://onshape.com)
