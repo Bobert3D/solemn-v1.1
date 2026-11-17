@@ -1,0 +1,12 @@
+Part,Type,Quantity,Unit price (USD),Line total (USD),Link,Vendor,Funding,Notes,Id,Designator,Footprint,Supplier and ref
+ComboDiode,Part,58,0.10,2.49,https://www.mouser.com/en/ProductDetail/onsemi/1N4148?qs=i4Fj9T%2FoRm8RMUhj5DeFQg%3D%3D,Mouser,Grant,1N4148,1,"D42,D49,D21,D22,D10,D54,D36,D29,D34,D28,D39,D2,D8,D38,D16,D37,D13,D44,D51,D32,D55,D56,D58,D3,D4,D5,D45,D17,D24,D41,D11,D25,D33,D14,D18,D35,D6,D7,D1,D9,D19,D26,D15,D23,D30,D12,D31,D40,D43,D50,D53,D4...",ComboDiode,512-1N4148
+GATERON Baby Kangaroo 2.0 Tactile Switch Set,Part,2,16.80,33.60,http://gateron.com/products/gateron-baby-kangaroo-20-tactile-switch-set,Gateron,Grant,gateron.com/products/gateron-baby-kangaroo-20-tactile-switch-set,2,"S17,S3,S4,S18,S45,S58,S52,S6,S33,S8,S19,S38,S24,S51,S46,S37,S14,S57,S20,S47,S32,S12,S10,S41,S22,S23,S55,S42,S36,S21,S28,S34,S35,S56,S13,S49,S15,S9,S29,S26,S27,S7,S50,S48,S16,S31,S11,S25,S53,S40,S44...",MX,GATERON Baby Kangaroo 2.0 Tactile Switch Set
+OLED,Part,1,0.73,0.73,https://www.mouser.com/en/ProductDetail/JST-Commercial/BM04B-SRSS-TBTLFSN?qs=cdbOS8ANM9Cm3wlCN9msVA%3D%3D,Mouser,Grant,,3,OLED1,JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical,306-BM04BSRSSTBTLFSN
+MCU1,Part,1,11.25,11.25,https://www.mouser.com/en/ProductDetail/SparkFun/DEV-18288?qs=Wj%2FVkw3K%252BMCVopxfjztNRg%3D%3D&mgh=1&srsltid=AYCX9vKyfAFgT062RkaX2nww6DWi8kyIotFP5gAPlaS_HazKk2Jlgk_hWUY,Mouser,Grant,,4,MCU1,ProMicro,474-DEV-18288
+SW_SPST_SKQG_WithStem,Part,1,0.31,0.31,https://www.mouser.com/en/ProductDetail/Alps-Alpine/SKQGABE010?qs=N5Jky1br14NGdH0AMYxewQ%3D%3D,Mouser,Grant,,5,B1,SW_SPST_SKQG_WithStem,688-SKQGAB
+OLED,Part,1,5.50,5.50,https://www.mouser.com/en/ProductDetail/Seeed-Studio/104020249?qs=Wj%2FVkw3K%252BMCj3w6xp4wU8g%3D%3D,Mouser,Grant,,6,OLED1(not conn),OLED,713-104020249
+Shipping,Shipping,1,8.49,8.49,,ups dudes,Grant,,,,,
+Tariff+Tax,Tax or fee,1,4.41,4.41,,Teriff peeps!,Grant,,,,,
+Shipping,Shipping,1,6.50,6.50,,Switches shipping,Grant,,,,,
+Tax,Tax or fee,1,1.77,1.77,,Service fee,Grant,,,,,
+Total,,,,75.05,,,,,,,,
